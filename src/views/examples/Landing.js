@@ -308,21 +308,33 @@ class Landing extends React.Component {
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <h3>Website 1</h3>
-                    <p>
-                    <h5>Book Shop</h5>
-                      <br />
-                      The site is a place for selling electronic books, the site shows the name of the book, its classification and price, the user can buy the book by choosing the books he wants, then enter his name, number, address and send the request.
+
+
+<p>
+                    <h5>Art Gallery and Store</h5>
+                    Online gallery and store for Different collections of artworks.
+                      <ul>
+                        <li>As a user, I would like to be able view a huge library of pieces of art, so we used an pre-existing art api where we can get arts from.</li>
+                        <li>As a user, I would like to be able to add whatever art I like to my favorites collection, so that we added a favorite button included in art cards.</li>
+                        <li>As a user, I would like to be able to post my own pieces of art, so that we made a page dedicated to that, where you can post your own arts using a form.</li>
+                        <li>As a user, I would like to be able to see my own posted pieces of art, so that we made whatever the user posts gets rendered in that same page.</li>
+                        <li>As a user, I would like to be able to read about developers and their vision, so that we made an about us page where you can just do that!</li>
+                      
+                      </ul>
+                      {/* <br /> */}
+                      <a href="https://world-of-art.netlify.app/"><h4>Demo</h4></a>
                     </p>
+
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge className="badge-circle mr-3" color="info">
-                              <i class="fa fa-css3" aria-hidden="true"></i>
+                            <i class="fab fa-bootstrap"></i>
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">CSS</h6>
+                            <h6 className="mb-0">Bootstrap</h6>
                           </div>
                         </div>
                       </li>
@@ -330,11 +342,12 @@ class Landing extends React.Component {
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge className="badge-circle mr-3" color="info">
-                              <i className="ni ni-html5" />
+                              {/* <i className="ni ni-html5" /> */}
+                              <i class="fab fa-react"></i>
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">HTML</h6>
+                            <h6 className="mb-0">REACT</h6>
                           </div>
                         </div>
                       </li>
@@ -367,17 +380,12 @@ class Landing extends React.Component {
                   <div className="pr-md-5">
                     <h3>Website 2</h3>
                     <p>
-                    <h5>Art Gallery and Store</h5>
-                    Online gallery and store for Different collections of artworks.
-                      <ul>
-                        <li>As a user, I would like to be able view a huge library of pieces of art, so we used an pre-existing art api where we can get arts from.</li>
-                        <li>As a user, I would like to be able to add whatever art I like to my favorites collection, so that we added a favorite button included in art cards.</li>
-                        <li>As a user, I would like to be able to post my own pieces of art, so that we made a page dedicated to that, where you can post your own arts using a form.</li>
-                        <li>As a user, I would like to be able to see my own posted pieces of art, so that we made whatever the user posts gets rendered in that same page.</li>
-                        <li>As a user, I would like to be able to read about developers and their vision, so that we made an about us page where you can just do that!</li>
-                      
-                      </ul>
-                    </p>
+                    <h5>Book Shop</h5>
+                      <br />
+                      The site is a place for selling electronic books, the site shows the name of the book, its classification and price, the user can buy the book by choosing the books he wants, then enter his name, number, address and send the request.
+                      <br />
+                      <a href="https://code-waves.github.io/book-Shop"><h4>Demo</h4></a>
+                    </p> 
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
