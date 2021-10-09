@@ -76,7 +76,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
-                  href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"
+                  href="https://www.linkedin.com/in/esra-a-al-shurafat-294bb3137/"
                   id="tooltip829810202"
                   target="_blank"
                 >
